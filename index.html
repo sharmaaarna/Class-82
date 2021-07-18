@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>My Canvas Application</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body background="flatlay-various-stationery-art-supplies-white-wooden-background-flatlay-various-stationery-art-supplies-white-131692831.jpg">
+        
+        <center>
+            <h1>My Canvas</h1>
+            <div>
+                <canvas id="myCanvas" width="800" height="600"></canvas>
+            </div>
+            <div>
+                <label>Radius:</label>
+                <input type="radius" id="iRadius"></input>
+                <label>Color:</label>
+                <input type="color" id="iColor"></input>
+                <label>Width:</label>
+                <input type="width" id="iWidth"></input>
+            </div>
+            <div>
+                <button id="clear" onclick="clearArea()">Clear</button>
+            </div>
+        </center>
+        <script src="Draw.js"></script> 
+        
+    </body>
+</html>
